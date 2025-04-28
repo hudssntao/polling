@@ -1,0 +1,35 @@
+{
+  "name": "polling",
+  "version": "1.0.0",
+  "description": "Generic polling service that fetches data and sends it to Discord",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "keywords": [
+    "polling",
+    "discord",
+    "webhook",
+    "monitoring",
+    "typescript",
+    "zod"
+  ],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/node-cron": "^3.0.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.5.0",
+    "node-cron": "^3.0.3",
+    "zod": "^3.24.3"
+  }
+}
